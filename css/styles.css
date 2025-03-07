@@ -2588,7 +2588,7 @@ input[type="button"].btn--primary:focus {
     margin-bottom: 15px;
     opacity: 1;
     transition: opacity 2s ease-in-out, transform 2s ease-in-out;
-    padding-right:40%;
+    padding-right:20%;
 }
 
 .skills__box {
@@ -2600,7 +2600,7 @@ input[type="button"].btn--primary:focus {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -3277,7 +3277,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-header__nav {
     font-family: var(--font-1);
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -4062,7 +4062,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .education-item {
-    margin-bottom: 15px; /* Spacing between education items */
+    margin-bottom: 40px; /* Spacing between education items */
 }
 
 .education-header, .education-details {
