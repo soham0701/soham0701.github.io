@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Soham Naik Portfolio</title>
+    <title>Soham Naik Portfolio</title> 
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Add Typed.js via CDN -->
@@ -54,8 +54,8 @@
                 <ul>
                     <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
                     <li><a class="smoothscroll" href="#about">About Me</a></li>
-                    <li><a class="smoothscroll" href="#skills">Skills & Work Ex</a></li>
-                    <!-- <li><a class="smoothscroll" href="#workex">Work Ex</a></li> -->
+                    <li><a class="smoothscroll" href="#skills">Skills</a></li>
+                    <li><a class="smoothscroll" href="#workex">Work Ex</a></li>
                     <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
                     <li><a class="smoothscroll" href="#publications">Publications</a></li>
                     <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
@@ -232,97 +232,155 @@
 
             </div>
         </div> <!-- s-resume__section -->
+    </section>
 
-        <section id="workex" class="s-resume target-section">
-
-
-            <div class="row s-resume__section">
-                <div class="column large-3 tab-12">
-                    <h3 class="section-header-allcaps">Work Ex</h3>
-                </div>
-                <div class="column large-9 tab-12">
-                    <!-- Timeline wrapper -->
-                    <div class="timeline">
-                        <!-- Experience 1 (Left) -->
-                        <div class="timeline-item">
-                            <div class="timeline-point"></div>
-                            <div class="timeline-content">
+    <!-- HTML Structure -->
+    <section id="workex" class="s-resume target-section">
+        <div class="row s-resume__section">
+            <div class="column large-12">
+                <h3 class="section-header-allcaps">Work Experience</h3>
+            </div>
+            <div class="column large-12">
+                <!-- Experience Grid -->
+                <div class="experience-grid">
+                    <!-- Johnson and Johnson -->
+                    <div class="experience-card">
+                        <div class="card-inner">
+                            <div class="card-front">
                                 <img class="company-logo" src="images/Logo-Johnson-Johnson.jpg" alt="JnJ Logo">
-                                <h4 class="h3">Johnson and Johnson</h4>
-                                <p class="resume-block__header-meta">
-                                    <span>Data Scientist (Capstone Project)</span>
-                                    <span class="resume-block__header-date">Jan 2025 - Present</span>
-                                </p>
+                                <h4>Johnson and Johnson</h4>
+                                <p class="job-title">Data Scientist (Capstone Project)</p>
+                                <p class="job-date">Jan 2025 - Present</p>
+                                <p class="company-desc">A global leader in healthcare products and services.</p>
                             </div>
-                        </div>
-
-                        <!-- Experience 2 (Right) -->
-                        <div class="timeline-item">
-                            <div class="timeline-point"></div>
-                            <div class="timeline-content">
-                                <img class="company-logo" src="images/castoredc_logo.jpg" alt="Castor Logo">
-                                <h4 class="h3">Castor</h4>
-                                <p class="resume-block__header-meta">
-                                    <span>AI Engineer<br>(Co-Op)</span>
-                                    <span class="resume-block__header-date">Jun 2024 - Present</span>
-                                </p>
-                            </div>
-                        </div>
-            
-                        <!-- Experience 3 (Left) -->
-                        <div class="timeline-item">
-                            <div class="timeline-point"></div>
-                            <div class="timeline-content">
-                                <img class="company-logo" src="images/uwnlp.png" alt="UW NLP Logo">
-                                <h4 class="h3">UW NLP Lab</h4>
-                                <p class="resume-block__header-meta">
-                                    <span>Research Intern</span>
-                                    <span class="resume-block__header-date">Feb 2024 - Jul 2024</span>
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Experience 4 (Right) -->
-                        <div class="timeline-item">
-                            <div class="timeline-point"></div>
-                            <div class="timeline-content">
-                                <img class="company-logo" src="images/metro.png" alt="UW NLP Logo">
-                                <h4 class="h3">Metro AG</h4>
-                                <p class="resume-block__header-meta">
-                                    <span>Data Science Intern</span>
-                                    <span class="resume-block__header-date">Mar 2023 - Jun 2023</span>
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Experience 5 (Left) -->
-                        <div class="timeline-item">
-                            <div class="timeline-point"></div>
-                            <div class="timeline-content">
-                                <img class="company-logo" src="images/pic.jpg" alt="UW NLP Logo">
-                                <h4 class="h3">PICT</h4>
-                                <p class="resume-block__header-meta">
-                                    <span>Research Intern</span>
-                                    <span class="resume-block__header-date">Jun 2022 - Dec 2022</span>
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Experience 6 (Right) -->
-                        <div class="timeline-item">
-                            <div class="timeline-point"></div>
-                            <div class="timeline-content">
-                                <img class="company-logo" src="images/omdena.jpg" alt="UW NLP Logo">
-                                <h4 class="h3">Omdena</h4>
-                                <p class="resume-block__header-meta">
-                                    <span>ML Intern</span>
-                                    <span class="resume-block__header-date">Aug 2021 - Nov 2021</span>
-                                </p>
+                            <div class="card-back">
+                                <h4>Key Responsibilities</h4>
+                                <ul>
+                                    <li>Performing ETL on 1M+ data points using Pandas and PySpark to process large-scale datasets efficiently and
+                                        derive actionable KPIs</li>
+                                    <li>Designing interactive Tableau dashboards to conduct ad-hoc analyses to communicate complex trends to nontechnical
+                                        users, driving 2x user engagement</li>
+                                    <li>Collaborating with data scientists to perform K-Means clustering and KDE analysis to improve the prediction
+                                        accuracy of Bayesian classifiers</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Castor -->
+                    <div class="experience-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="company-logo" src="images/castoredc_logo.jpg" alt="Castor Logo">
+                                <h4>Castor</h4>
+                                <p class="job-title">AI Engineer (Co-Op)</p>
+                                <p class="job-date">Jun 2024 - Present</p>
+                                <p class="company-desc">Healthcare SaaS platform specializing in clinical research.</p>
+                            </div>
+                            <div class="card-back">
+                                <h4>Key Responsibilities</h4>
+                                <ul>
+                                    <li>Developed a scalable data extraction pipeline using Python, MS Copilot API and prompt engineering to
+                                        transform EHR data, achieving 50% cost reduction through automated processing</li>
+                                    <li>Developed AI solutions for improving clinical trial efficiencyBuilt a RAG pipeline in LangChain using vector stores, resulting in 30% faster document retrieval for source
+                                        document verification</li>
+                                    <li>Set up a CI/CD pipeline using AWS Services for automated testing, building, and deployment of Docker
+                                        containers to AWS, reducing deployment time by 70%</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- UW NLP Lab -->
+                    <div class="experience-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="company-logo" src="images/uwnlp.png" alt="UW NLP Logo">
+                                <h4>UW NLP Lab</h4>
+                                <p class="job-title">GenAI Research Intern</p>
+                                <p class="job-date">Feb 2024 - Jul 2024</p>
+                                <p class="company-desc">Academic lab focused on NLP and LLM research.</p>
+                            </div>
+                            <div class="card-back">
+                                <h4>Key Responsibilities</h4>
+                                <ul>
+                                    <li>Built a logistic regression model in PyTorch to evaluate the performance of fine-tuned Mistral-7B Hugging Face
+                                        LLMs in resume selection tasks for bias</li>
+                                    <li>Used NLP to perform text similarity, keyword matching, and feature extraction for predictive accuracy. Validated
+                                        the hypothesis of bias with 96% accuracy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Metro AG -->
+                    <div class="experience-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="company-logo" src="images/metro.png" alt="Metro AG Logo">
+                                <h4>Metro AG</h4>
+                                <p class="job-title">Data Science Intern</p>
+                                <p class="job-date">Mar 2023 - Jun 2023</p>
+                                <p class="company-desc">Global wholesale company serving professional customers.</p>
+                            </div>
+                            <div class="card-back">
+                                <h4>Key Responsibilities</h4>
+                                <ul>
+                                    <li>Developed SARIMA forecasting model for sales prediction, achieving a 20% improvement in accuracy</li>
+                                    <li>Built recommendation systems for B2B customersUsed Python, TensorFlow, scikit-learn and NumPy to develop an ID authentication tool, eliminating 20
+                                        hours of weekly manual processing workload</li>
+                                    <li>Implemented an innovative solution to extract and transform high-volume data entering PowerApps via SQL,
+                                        saving $120,000 in annual licensing costs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PICT -->
+                    <!-- <div class="experience-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="company-logo" src="images/pic.jpg" alt="PICT Logo">
+                                <h4>PICT</h4>
+                                <p class="job-title">Research Intern</p>
+                                <p class="job-date">Jun 2022 - Dec 2022</p>
+                                <p class="company-desc">Leading technical institute for computer engineering research.</p>
+                            </div>
+                            <div class="card-back">
+                                <h4>Key Responsibilities</h4>
+                                <ul>
+                                    <li>Researched distributed computing solutions for machine learning</li>
+                                    <li>Implemented parallel processing algorithms for data analysis</li>
+                                    <li>Conducted performance benchmarking of various computing architectures</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Omdena -->
+                    <!-- <div class="experience-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="company-logo" src="images/omdena.jpg" alt="Omdena Logo">
+                                <h4>Omdena</h4>
+                                <p class="job-title">ML Intern</p>
+                                <p class="job-date">Aug 2021 - Nov 2021</p>
+                                <p class="company-desc">Collaborative platform solving real-world problems with AI.</p>
+                            </div>
+                            <div class="card-back">
+                                <h4>Key Responsibilities</h4>
+                                <ul>
+                                    <li>Contributed to AI solutions for social impact projects</li>
+                                    <li>Developed computer vision models for image classification</li>
+                                    <li>Collaborated in a remote team environment with global contributors</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
             </div>
-
-    </section> <!-- end s-resume -->
-
+        </div>
+    </section>
 
     <!-- portfolio
     ================================================== -->
@@ -331,21 +389,22 @@
         <div class="projects-container">
             <a href="https://github.com/soham0701/Ingredient_Analyzer" target="_blank">
                 <div class="project-card">
-                    <img src="project1.jpg" alt="Project 1">
+                    <img src="images/ingredient_anal.jpg" alt="Project 1">
                     <h3>Ingredient Analyzer</h3>
-                    <p>A web application that allows users to upload images of ingredient labels, extract the text using OCR, and analyze the ingredients using Claude AI to determine if they are healthy, artificial sweeteners, or have potential concerns.</p>
+                    <p>A web application that allows users to upload images of ingredient labels, extract the text using OCR, and analyze the ingredients using Claude API to determine if they are healthy, artificial sweeteners, or have potential concerns.</p>
                 </div>
             </a> 
             <a href="https://github.com/soham0701/" target="_blank">
                 <div class="project-card">
-                    <img src="images/Capture-3.png" alt="Project 1">
+                    <img src="images\Capture-3.png" alt="Project 1">
                     <h3>Forecasting Model</h3>
-                    <p>Brief description of the project.</p>
+                    <p>This project utilizes the SARIMA (Seasonal AutoRegressive Integrated Moving Average) model to forecast sales trends for a retail dataset. It preprocesses historical sales data, identifies seasonal patterns, and optimizes SARIMA parameters for accurate predictions. The model helps retailers anticipate demand fluctuations and optimize inventory.
+                    </p>
                 </div>
             </a> 
             <a href="https://github.com/soham0701/Gun_Detection" target="_blank">
                 <div class="project-card">
-                    <img src="C:\Users\SohamNaik\Desktop\portfolio-website-master\images\usecase.png" alt="Project 1">
+                    <img src="images/gun-detection@3x-1-1024x625.png" alt="Project 1">
                     <h3>Gun Detection</h3>
                     <p>This project implements a deep learning-based gun detection system using the YOLO (You Only Look Once) object detection algorithm. The model is trained on a dataset of firearm images to accurately identify guns in real-time, making it suitable for security and surveillance applications.</p>
                 </div>
@@ -353,32 +412,31 @@
         </div>
     </section>
 
-   
-
     <!-- CTA
     ================================================== -->
     <section id="publications" class="s-cta">
-
         <div class="row">
             <div class="column">
-                <h3 class="h2 section-desc">
-                    Publications
-                </h3>
+                <h3 class="h2 section-desc">Publications</h3>
             </div>
-        </div> <!-- end heading-block -->
-
+        </div>
+    
         <div class="row cta-content">
             <div class="column">
-                <p>
-                    <a href="https://www.semanticscholar.org/paper/Evaluating-Performances-of-Attention-Based-Merge-in-Tangsali-Chhatre/945e9bb781f85c74dd22210d13a53fad3a8f6553" target="_blank">Image Captioning using Merge Architecture</a>
-                </p>
-                <p>
-                    <a href="https://www.semanticscholar.org/paper/Abstractive-Text-Summarization-for-Hindi-Language-Agarwal-Naik/6a21a8ec4252cf79d62d30c77ac1cfc51cb96783" target="_blank">Text Summarization in Low Resource Languages</a>
-                </p>
+                <div class="publication-card">
+                    <a href="https://www.semanticscholar.org/paper/Evaluating-Performances-of-Attention-Based-Merge-in-Tangsali-Chhatre/945e9bb781f85c74dd22210d13a53fad3a8f6553" target="_blank">
+                        📄 <span>Image Captioning using Merge Architecture</span>
+                    </a>
+                </div>
+                <div class="publication-card">
+                    <a href="https://www.semanticscholar.org/paper/Abstractive-Text-Summarization-for-Hindi-Language-Agarwal-Naik/6a21a8ec4252cf79d62d30c77ac1cfc51cb96783" target="_blank">
+                        📄 <span>Text Summarization in Low Resource Languages</span>
+                    </a>
+                </div>
             </div>
-        </div> <!-- end cta-content -->
-
-    </section> <!-- end s-cta -->
+        </div>
+    </section>
+    
 
 
     <!-- testimonials
@@ -433,7 +491,7 @@
             </div>
         </div> <!-- s-contact__content -->
 
-    </section> <!-- end s-contact -->
+    </section>
     
 
     <!-- footer
